@@ -39,6 +39,4 @@ task :publish => [:generate] do
 
         Dir.chdir pwd
     end
-
-    Rake::Task["ping"].invoke
 end
