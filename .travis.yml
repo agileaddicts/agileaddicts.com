@@ -9,6 +9,6 @@ install:
     - gem install --no-rdoc --no-ri bundler jekyll rake redcarpet
 script:
     - rake publish
-global:
-    env:
-        secure: CLmIVBPw+pXrZ35M8qV400iziu/AWoAAR/cdHZfCteeoGn3LK5Y/lNHK2rJdu92QsBZn0/+MbbYVyPMnHH30tdtKdAV72+ONgnLrVYjmql/1YnxtHcuOzP8nddzMKn3hQhdSvIFswWYD933b7HX+zWcpy0V+8q4eqfwIJ6Cfs3A=
+env:
+    global:
+        secure: A4fjJxnXO5rhcyUs2o3IesD7moN66TF7HmGLqjQBCXQHTZeIrfj45EuK3f1d4SnEJXehc5CjaxuSg462/WwGWPI7Ysv/9dbxeHXAIDIZqJa+mMq4GC5XaiBNPWr+i4uRtzyBYz2J2LOj5GIXAZU5TnDXI4Mlju3yH7lq4piQXE0=
