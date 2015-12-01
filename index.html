@@ -9,57 +9,13 @@
         <meta charset="utf-8">
         <meta name="robots" content="all">
 
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link href="main.css" media="screen" type="text/css" rel="stylesheet">
-        
-        <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-        <script type="text/javascript">/*<![CDATA[*/
-            jQuery(function($){
-                chooseQuote();
-                setQuoteWidth();
-                positionQuote(); // Call it once page is fully loaded into dom
-
-                $(window).resize(function(){ // Call it on window resize
-                    positionQuote();
-                });
-
-                function chooseQuote(){
-                    var quotes = ["Individuals and interactions over processes and tools", "Working software over comprehensive documentation", "Customer collaboration over contract negotiation", "Responding to change over following a plan"];
-                    var number = Math.floor(Math.random()*4);
-                    $('.quoteText').text(quotes[number]);
-                }
-
-                function setQuoteWidth(){
-                    var width = $('.doublequote.left').width() + $('.quoteText').width() + $('.doublequote.right').width();
-                    $('div#quote p').width(width);
-                }
-
-                function positionQuote(){
-                    var topMarginForQuote = ($(window).height()-$('#quote p').height())/2;
-                    var leftMarginForQuote = ($('#layout').width()-$('#quote p').width())/2;
-                    $('#quote p').css({
-                        'margin-top': topMarginForQuote,
-                        'margin-left': leftMarginForQuote
-                    });
-                }
-            });
-        /*]]>*/</script>
-
-        <meta name="google-site-verification" content="pKsgyoFxyRr3gOJ3ZNcaP7BNdgaagDI-xb6UgKmPcBU" />
     </head>
-    <body id="default">
-        <div id="layout">
-            <div id="quote">
-                <p>
-                    <span class="doublequote left">&ldquo;</span><span class="quoteText"></span><span class="doublequote right">&rdquo;</span>
-                    <br class="both">
-                </p>
-            </div>
-            <div id="more">
-                <p>sebastian {at} agileaddicts {dot} com</p>
-            </div>
-        </div>
+    <body>
+        <h1>Sebastian Göttschkes | Freelance Web Developer</h1>
+        <p>More soon!</p>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
