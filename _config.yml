@@ -1,3 +1,5 @@
+# Site variables
+title: Sebastian Göttschkes | Freelance Web Developer
 # Build settings
 exclude: ['Rakefile', 'README.md', 'Vagrantfile']
 timezone: Europe/Vienna
