@@ -1,5 +1,7 @@
 # Site variables
 title: Sebastian Göttschkes | Freelance Web Developer
+description: Sebastian Göttschkes is a freelance Web Developer from Vienna specialized in PHP, Python and Dart. He also supports clients in getting up to speed with Vagrant and Ansible.
+
 # Build settings
 exclude: ['Rakefile', 'README.md', 'Vagrantfile']
 timezone: Europe/Vienna
