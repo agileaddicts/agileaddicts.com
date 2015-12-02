@@ -1,10 +1,12 @@
 ---
 ---
 
-$whiteish: #FFFFF0;
-$blackish: #2D1E2F;
-$orangeish: #FA9D6C;
-$blueish: #75ADD2;
+// https://coolors.co/app/66101f-fa9d6c-fffff0-75add2-2d1e2f
+$whiteish: #fffff0;
+$blackish: #2d1e2f;
+$orangeish: #fa9d6c;
+$blueish: #75add2;
+$redish: #66101f;
 
 html {
     /* http://snook.ca/archives/html_and_css/font-size-with-rem */
@@ -52,7 +54,7 @@ a {
     width: 100%;
     height: 0.5rem;
 
-    background-color: #66101F;
+    background-color: $redish;
 
     font-size: 0rem;
 }
