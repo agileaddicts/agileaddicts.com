@@ -1,5 +1,24 @@
 ---
 ---
+html {
+    /* http://snook.ca/archives/html_and_css/font-size-with-rem */
+    font-size: 62.5%;
+}
+
 body {
-    margin: 50px;
+    margin: 5rem 0;
+
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1, h2 {
+    font-family: 'Droid Serif', serif;
+    font-size: 3rem;
+}
+
+#page-wrap {
+    width: 800px;
+
+    margin: 0 auto;
 }
