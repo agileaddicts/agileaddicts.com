@@ -65,6 +65,14 @@ a {
     margin: 0 auto;
 }
 
+img.profile-picture {
+    float: right;
+
+    width: 40rem;
+
+    margin: 0 2rem 2rem 2rem;
+}
+
 span.highlight {
     color: $orangeish;
 
