@@ -78,3 +78,20 @@ span.highlight {
 
     font-weight: 700;
 }
+
+div.footer {
+    margin: 2rem 0 0 0;
+    padding: 2rem 0;
+
+    color: $whiteish;
+    background-color: $redish;
+
+    p {
+        width: 80rem;
+
+        margin: 0 auto;
+        padding: 0;
+
+        font-size: 1.2rem;
+    }
+}
