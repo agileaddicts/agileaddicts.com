@@ -1,14 +1,14 @@
 language: ruby
 sudo: false
 branches:
-    only:
-        - master
+  only:
+  - master
 rvm:
-    - 2.1.5
+- 2.1.5
 install:
-    - gem install --no-rdoc --no-ri bundler jekyll rake redcarpet
+- gem install --no-rdoc --no-ri bundler jekyll rake redcarpet
 script:
-    - rake publish
+- rake publish
 env:
-    global:
-        secure: A4fjJxnXO5rhcyUs2o3IesD7moN66TF7HmGLqjQBCXQHTZeIrfj45EuK3f1d4SnEJXehc5CjaxuSg462/WwGWPI7Ysv/9dbxeHXAIDIZqJa+mMq4GC5XaiBNPWr+i4uRtzyBYz2J2LOj5GIXAZU5TnDXI4Mlju3yH7lq4piQXE0=
+  global:
+  - secure: esqa3AMyKwmQUMWpHdOF/KDO9qM3f2gmLj8LivL3n3r47hUqCJMMh/4JNHbiU1KoE7w/UjgOdd0vPqtmlXDyjzI4gNPbUGIwQmKAHC+CMM/vnmhJIYTkvswVbWDvIS1AAJyw9+witqlux+GBMGeeUGWL+FU6LXFzjgYRpuJTB1A=
